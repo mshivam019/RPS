@@ -181,7 +181,7 @@ fun Rockpaper() {
             }
             Column(
                 Modifier
-                    .fillMaxWidth(0.9999f)
+                    .fillMaxWidth()
                     .wrapContentWidth(Alignment.CenterHorizontally)
             ) {
                 Rockpbutton(bvlaue = "Scissor") {
@@ -198,8 +198,7 @@ fun Rockpaper() {
 
         }
         Row(
-            verticalAlignment = Alignment.Bottom, modifier = Modifier
-                .height(200.dp)
+            verticalAlignment = Alignment.Bottom, modifier = Modifier.fillMaxHeight()
         ) {
             Spacer(modifier = Modifier.weight(1f))
             Text(
