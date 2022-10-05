@@ -206,7 +206,7 @@ fun Rockpaper() {
                 fontSize = 20.sp,
                 fontFamily = FontFamily.SansSerif,
                 modifier = Modifier
-                    .padding(5.dp)
+                    .padding(10.dp)
                     .fillMaxWidth()
                     .wrapContentWidth(Alignment.CenterHorizontally)
             )

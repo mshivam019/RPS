@@ -33,7 +33,7 @@ fun Thursdaytrivia2Theme(
     content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
-        DarkColorPalette
+        LightColorPalette
     } else {
         LightColorPalette
     }
