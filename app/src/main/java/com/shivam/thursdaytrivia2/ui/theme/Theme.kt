@@ -32,12 +32,8 @@ fun Thursdaytrivia2Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    val colors = if (darkTheme) {
-        LightColorPalette
-    } else {
-        LightColorPalette
-    }
-
+    val colors = LightColorPalette
+    
     MaterialTheme(
         colors = colors,
         typography = Typography,
